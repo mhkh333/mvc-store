@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MvcStore.Models.Product>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Vitrin</h1>
+
+</div>
+
+<div class="container father">
+<div class="row new-class">
+    <div class="col-lg-9 order-last">
+        @if (Model != null)
+        {
+            <div class="row">
+                @foreach (var product in Model)
+                {
+                    <div class="col-lg-4 col-md-3 mb-4">
+                        <div class="card h-100">
+                            <img src="data:image;base64,@product.ImageUrl" class="card-img-top img-fluid" alt="@product.Name">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">@product.Name</h5>
+                                <p class="card-text">Price: @product.Price</p>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+
+        }
+        else
+        {
+            <p>No products found.</p>
+        }
+
+    </div>
+    <div class="col-lg-3 order-first order-lg-last">
+        <!-- Filter Section (on the right side of the page) -->
+        <div class="card for_card">
+            <div class="card-body filter">
+                Filter Content
+                <form asp-controller="Home" asp-action="Index">
+                    <p>
+                        <div class="input_filters">Title: <input type="text" name="SearchString" />
+                        </div>
+
+                        <div class="input_filters">Min Price: <input type="text" name="minPrice" /></div>
+                        <div class="input_filters">Max Price: <input type="text" name="maxPrice" /></div>
+                        <input type="submit" value="Filter" />
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,7 @@
+img[b-xnx9e57gya] {
+    transition: transform 0.25s ease;
+}
+
+img:hover[b-xnx9e57gya] {
+    transform: scale(1.5);
+}

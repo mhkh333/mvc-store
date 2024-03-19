@@ -1,0 +1,42 @@
+.card {
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 70%; /* Set the height of the image */
+    /* height: 200px;  */
+    object-fit: cover;
+}
+
+img {
+    transition: transform 0.25s ease;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.new-class{
+    background-color: blueviolet;
+}
+
+.father, h1{
+    background-color: cornflowerblue;
+}
+
+.input_filters{
+    margin-bottom: 10px;
+}
+
+.filter{
+background-color: burlywood;
+margin-bottom: 20px;
+}
+
+.for_card{
+    height: 80%;
+    /* margin-bottom: 20px; */
+
+}

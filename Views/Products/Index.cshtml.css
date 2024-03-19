@@ -1,0 +1,41 @@
+img {
+    transition: transform 0.25s ease;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    color: rgb(229, 13, 13);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

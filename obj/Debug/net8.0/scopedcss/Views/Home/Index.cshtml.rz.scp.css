@@ -1,0 +1,42 @@
+.card[b-l8md9firad] {
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card img[b-l8md9firad] {
+    height: 70%; /* Set the height of the image */
+    /* height: 200px;  */
+    object-fit: cover;
+}
+
+img[b-l8md9firad] {
+    transition: transform 0.25s ease;
+}
+
+img:hover[b-l8md9firad] {
+    transform: scale(1.2);
+}
+
+.new-class[b-l8md9firad]{
+    background-color: blueviolet;
+}
+
+.father[b-l8md9firad], h1[b-l8md9firad]{
+    background-color: cornflowerblue;
+}
+
+.input_filters[b-l8md9firad]{
+    margin-bottom: 10px;
+}
+
+.filter[b-l8md9firad]{
+background-color: burlywood;
+margin-bottom: 20px;
+}
+
+.for_card[b-l8md9firad]{
+    height: 80%;
+    /* margin-bottom: 20px; */
+
+}
