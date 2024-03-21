@@ -8160,11 +8160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Mohammad_Khorrami\\code\\dotnetToturial\\firstASP_MVC\\MvcProducts\\MvcStore\\MvcStore.csproj",
+      "projectUniqueName": "C:\\Users\\MSI\\Desktop\\test\\mvc-store\\MvcStore.csproj",
       "projectName": "MvcStore",
-      "projectPath": "E:\\Mohammad_Khorrami\\code\\dotnetToturial\\firstASP_MVC\\MvcProducts\\MvcStore\\MvcStore.csproj",
+      "projectPath": "C:\\Users\\MSI\\Desktop\\test\\mvc-store\\MvcStore.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "E:\\Mohammad_Khorrami\\code\\dotnetToturial\\firstASP_MVC\\MvcProducts\\MvcStore\\obj\\",
+      "outputPath": "C:\\Users\\MSI\\Desktop\\test\\mvc-store\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8185,6 +8185,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

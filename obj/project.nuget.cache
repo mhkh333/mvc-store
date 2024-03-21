@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DROWnnr4lIrXz5/awD4aXgBV8nSP0dsEUVYReiW7fPVw7yzFx1JXVxhlL4gBw9HBwW9s/vmaREOJCZ0rPI+I3A==",
+  "dgSpecHash": "X3IHpO54RJm5HfW1kHHjHlHOErT/oHAolqFLU6kXEB+b8S6mORtHFMXhup4C53uHITUybW2EKv0DbU2mnKHbCA==",
   "success": true,
-  "projectFilePath": "E:\\Mohammad_Khorrami\\code\\dotnetToturial\\firstASP_MVC\\MvcProducts\\MvcStore\\MvcStore.csproj",
+  "projectFilePath": "C:\\Users\\MSI\\Desktop\\test\\mvc-store\\MvcStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
