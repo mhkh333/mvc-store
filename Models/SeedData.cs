@@ -13,7 +13,7 @@ public static class SeedData
         {
             if (context.Product.Any())
             {
-                return; // DB has been seeded
+                return; //Data seeded
             }
             context.Product.AddRange(
                 new Product
